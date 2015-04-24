@@ -1,0 +1,860 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+.empresas {
+  position: absolute;
+  top: 487%;
+}
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+section.postulantes {
+  background-color: #28c5e6;
+  position: absolute;
+  top: 287%;
+}
+.colegio {
+  background-color: #77d248;
+  position: absolute;
+  width: 100%;
+  top: 610%;
+  height: 120%;
+}
+.blog {
+  position: absolute;
+  top: 872%;
+}
+.lista{
+  background-image: url(../img/img-03.png);
+  height: 150%;
+  width: 100%;
+  position: absolute;
+  top: 730.1%;
+  background-size: cover;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.col-md-12 {
+  width: 100%;
+  height: 100%; }
+
+.desktop {
+  background-image: url(../img/img-home.png);
+  width: 100%;
+  height: 102%;
+  background-repeat: no-repeat;
+  margin-top: -20px; }
+
+ul li {
+  display: inline-block; }
+
+#ingresar {
+  color: red;
+  background-color: gray;
+  margin: 6px;
+  border-radius: 40%; }
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: black; }
+
+.container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+  margin-left: 48%;
+  display: block;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+  font-size: 22px;
+  font-family: "Lato"; }
+
+.slogan .row {
+  width: 50%;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+  padding: 50px 27px 131px 75px;
+  }
+  .slogan .row h1 {
+    font-family: "Lato";
+    color: #28c5e6; }
+  .slogan .row p {
+    margin-top: 8%;
+    font-size: 15px;
+    font-family: "Lato"; }
+  .slogan .row img {
+    margin-top: 20%; }
+
+.boton-2{
+  display: inline-block;
+  position: relative;
+  left: 46%;
+  top: -32px;
+}
+.boton-3 {
+  display: inline-block;
+  position: relative;
+  left: 46%;
+}
+.boton-4 {
+  display: inline-block;
+  position: relative;
+  left: 46%;
+  top: -37px;
+}
+.boton-5 {
+  display: inline-block;
+  position: relative;
+  left: 46%;
+  top: -33px;
+}
+.boton-6 {
+  display: inline-block;
+  position: relative;
+  left: 46%;
+  top: -28px;
+}
+.slogan2 h1 {
+  font-family: "Lato";
+  color: #28c5e6;
+  text-align: center; }
+
+.slogan2 p {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  font-size: 17px;
+  font-family: "Lato";
+  text-align: center; }
+
+img.home {
+  width: 100%; }
+
+.boton-1 {
+  display: inline-block;
+  margin-top: -39px;
+  margin-left: 47%;
+}
+img.boton {
+  border-radius: 50%; }
+
+a.crea {
+  color: white;
+  text-decoration: none;
+  font-weight: 800; }
+
+button.perfil {
+  background-color: #ff6a49;
+  padding: 3%;
+  border: 2px solid #ff6a49;
+  border-radius: 11px;
+  margin-top: 3%;
+}
+.metodologia {
+  margin-top: 0%; }
+  .metodologia h1 {
+    font-family: "Lato";
+    color: #28c5e6;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 6%; }
+  .metodologia h2 {
+    font-family: "Lato";
+    color: #EC6645;
+    text-align: center; }
+  .metodologia span {
+    font-family: "Lato";
+    font-size: 23px;
+    margin-left: 21%; }
+
+.comi-1 {
+  display: inline-block;
+  position: absolute;
+  left: 23%; }
+
+.comi-2 {
+  display: inline-block;
+  position: absolute;
+  left: 77%; }
+
+.circulo-1 {
+  background-color: #EC6645;
+  height: 400px;
+  border-radius: 100%;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 50px; }
+.circulo-1 h4 {
+  color: white;
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  width: 341px;
+  left: 36px;
+}
+.circulo-1 h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+  top: 71px;
+  left: 2px;
+  font-size: 24px;
+}
+.circulo-2 {
+  height: 381px;
+  border-radius: 50%;
+  width: 389px;
+  position: relative;
+  margin-top: -250px;
+  margin-left: 9px;
+  border: 2px white dashed;
+}
+
+.linea1 {
+  width: 207px;
+  height: 47px;
+  border-bottom: 2px dashed #EC6645;
+  -webkit-transform: translateY(10px) translateX(2px) rotate(-23deg);
+  position: absolute;
+  top: 462px;
+  left: 208px;
+}
+.linea2 {
+  width: 207px;
+  height: 47px;
+  border-bottom: 2px dashed #EC6645;
+  -webkit-transform: translateY(10px) translateX(2px) rotate(27deg);
+  position: absolute;
+  top: 460px;
+  right: 219px;
+}
+.linea3 {
+  width: 200px;
+  border-bottom: 2px dashed #EC6645;
+  -webkit-transform: rotate(90deg);
+  position: absolute;
+  top: 877px;
+  right: 505px; }
+
+.eva-1 {
+  display: inline-block;
+  width: 22%;
+  position: absolute;
+  top: 78%;
+  left: 7%;
+}
+.eva-1 p {
+  text-align: center;
+  font-size: 16px;
+}
+.eva {
+  display: inline-block;
+  width: 22%;
+  position: absolute;
+  top: 78%;
+  right: 8%;
+}
+.eva p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.eva-2{
+  display: inline-block;
+  width: 26%;
+  position: absolute;
+  top: 135%;
+  right: 38%;
+}
+.eva-2 p {
+  text-align: center;
+  font-size: 16px;
+}
+button.ver {
+  padding: 6% 28%;
+  border-radius: 11px;
+  border: none;
+  background-color: #28c5e6;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+a.ver {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+
+a.ve {
+  color: white;
+  font-weight: 900;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  font-family: "Lato";
+  padding: 30px 0px 17px 0px;
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+.postulantes ul li {
+  list-style: none;
+  display: block;
+  margin-bottom: 100%;
+}
+img.tres {
+  margin-top: 95px;
+}
+ul.descripcion {
+  width: 73%;
+}
+img.img {
+  border-radius: 50%;
+}
+li.uno {
+  margin-top: -29px;
+  margin-left: -39px;
+}
+li.dos {
+  margin-top: -105px;
+  margin-left: -25px;
+}
+li.tres {
+  margin-top: -129px;
+  margin-left: -38px;
+}
+button.ms {
+  background-color: #28c5e6;
+  padding: 15px 45px;
+  border: 2px solid white;
+  border-radius: 11px;
+  margin-top: -10%;
+  margin-left: 38.5%;
+}
+.titulos h3 {
+  font-size: 35px;
+  border-bottom: 2px dashed;
+  font-family: "Lato";
+  margin-top: -16px;
+}
+.postulantes .row{
+  margin-top: 10%;
+}
+.col-md-2 {
+  width: 16.66667%;
+  position: relative;
+  left: 100px;
+}
+.col-md-4 {
+  width: 16.66667%;
+  position: relative;
+  left: 8px;
+  top: -34px;
+}
+.line0 {
+  border: 2px dashed white;
+  position: relative;
+  width: 14%;
+  -webkit-transform: rotate(90deg);
+  left: 43%;
+  top: 205px;
+}
+.line1 {
+  border: 2px dashed white;
+  position: relative;
+  width: 14%;
+  -webkit-transform: rotate(90deg);
+  left: 43%;
+  top: 526px;
+}
+.line2 {
+  border: 2px dashed white;
+  position: relative;
+  width: 14%;
+  -webkit-transform: rotate(90deg);
+  left: 43%;
+  top: 854px;
+}
+button.ve {
+  padding: 11px 58px;
+  border-radius: 11px;
+  background-color: #28c5e6;
+  border: 2px solid #28c5e6;
+  margin-top: 35%;
+  margin-left: 42%;
+}
+.col-lg-4 {
+  width: 33.33333%;
+  margin-top: 70px;
+  display: inline-block;
+  margin-left: -3px;
+}
+.col-lg-3 {
+  width: 33.33333%;
+  margin-top: 40px;
+  display: inline-block;
+  margin-left: -3px;
+}
+.col-lg-2 {
+  width: 33.33333%;
+  margin-top: 110px;
+  display: inline-block;
+  margin-left: -3px;
+  position: relative;
+  top: -70px;
+}
+.col-lg-1 {
+  width: 33.33333%;
+  margin-top: 40px;
+  display: inline-block;
+  margin-left: -3px;
+  position: relative;
+  top: 22px;
+}
+.empresas h1{
+  color: #EC6645;
+  text-align: center;
+  font-family: "Lato"
+}
+.empresas p{
+  text-align: center;
+  font-family: "Lato";
+  font-size: 22px;
+  margin-top: 30px;
+}
+.line-1 {
+  width: 510px;
+  border-bottom: 2px dashed #EC6645;
+  -webkit-transform: rotate(180deg);
+  margin: 0 auto;
+  position: relative;
+}
+.tex{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 23px;
+  text-align: center;
+}
+.tex p{
+  font-size: 17px;
+}
+.img-1{
+  display: inline-block;
+  margin-left: 38%;
+  border-radius: 50%;
+}
+.img-1 img{
+  border-radius: 50%;
+}
+.tex-1 h2{
+  text-align: center;
+  font-family: "Lato";
+  margin-bottom: 9%;
+
+}
+.tex-1 {
+  width: 77%;
+  margin: 0 auto;
+}
+.tex-1 p{
+  font-size: 15px;
+}
+.tex-1 a {
+  color: #28c5e6;
+  text-decoration: none;
+  margin-left: 60px;
+  font-family: "Lato";
+  font-size: 16px;
+}
+.tex-1-1 h2{
+  text-align: center;
+  font-family: "Lato";
+/*  margin-bottom: 9%;*/
+
+}
+.tex-1-1 {
+  width: 77%;
+  margin: 0 auto;
+}
+.tex-1-1 p{
+  font-size: 15px;
+}
+.contacto {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+button.conta {
+  background-color: #ff6a49;
+  padding: 4px 34px;
+  border-color: #ff6a49;
+  border-radius: 11px;
+  margin-top: 6%;
+  position: relative;
+  left: -25%;
+  margin-bottom: 10%
+}
+.colegio h1{
+  color: white;
+  text-align: center;
+  font-family: "Lato";
+  margin-top: 0px;
+}
+.colegio p{
+  text-align: center;
+  font-family: "Lato";
+  font-size: 22px;
+  margin-top: 30px;
+  color: #ffc200;
+}
+
+.line-2 {
+  width: 510px;
+  border-bottom: 2px dashed white;
+  -webkit-transform: rotate(180deg);
+  margin: 0 auto;
+  position: relative;
+}
+.tex-2-1 h2{
+  text-align: center;
+  font-family: "Lato";
+  margin-bottom: 9%;
+  color: white;
+
+}
+
+.tex-2-1 {
+  width: 77%;
+  margin: 0 auto;
+}
+.tex-2-1 p{
+  font-size: 15px;
+  color: white;
+}
+.tex-2- h2{
+  font-size: 26px;
+  text-align: center;
+  font-family: "Lato";
+  margin-bottom: 9%;
+  color: white;
+
+}
+
+.tex-2- {
+  width: 77%;
+  margin: 0 auto;
+}
+.tex-2- p{
+  font-size: 15px;
+  color: white;
+}
+.conta-1{
+  border-radius: 11px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-top: 6%;
+  position: relative;
+  left: 42%;
+  margin-bottom: 6%;
+}
+.text{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 23px;
+  text-align: center;
+}
+.text p{
+  font-size: 17px;
+  color: white;
+}
+.lista h1 {
+  color: #989898;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.list-1{
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 26px;
+  height: 20%;
+}
+.list-1 p {
+  margin: 13px 10px 17px;
+}
+
+u{
+  font-size: 25px;
+  color: #28c5e6;
+}
+button.ver {
+  padding: 6% 21%;
+  border-radius: 11px;
+  border: 2px solid red;
+  background-color: transparent;
+  margin-top: -34%;
+  margin-bottom: 20%;
+  position: relative;
+  left: 220%;
+}
+button.ver-- {
+  padding: 6% 18%;
+  border-radius: 11px;
+  border: 2px solid red;
+  background-color: transparent;
+  margin-top: -34%;
+  margin-bottom: 20%;
+  position: relative;
+  right: -184%;
+}
+a.ver- {
+  color: red;
+  text-decoration: none;
+  font-weight: 800;
+}
+.line-3 {
+  width: 66%;
+  border-bottom: 1px dashed #989898;
+  -webkit-transform: rotate(180deg);
+  margin: 0 auto;
+  position: relative;
+  left: 11px;
+}
+button.mas {
+  background-color: gray;
+  padding: 15px 43px;
+  border: 2px solid gray;
+  border-radius: 11px;
+  position: relative;
+  top: 105px;
+  left: 30px;
+}
+
+.tex-2 {
+  width: 77%;
+  margin: 0 auto;
+  background: rebeccapurple;
+  padding: 10px 36px;
+}
+.tex-2 p{
+  font-size: 15px;
+  color: black;
+}
+.imag {
+  background-image: url(../iconos/iconos-22.png);
+  height: 77px;
+  width: 21%;
+}
+.blog h1 {
+  color: gray;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.blog p {
+  font-size: 15px;
+  color:white;
+  background-color: #989898;
+  padding: 17% 10%;
+  text-align: justify;
+}
+button.v- {
+  padding: 11px 58px;
+  border-radius: 11px;
+  background-color: #28c5e6;
+  border: 2px solid #28c5e6;
+  margin-top: 12%;
+  margin-left: 42%;
+}
+a.v- {
+  color: white;
+  font-weight: 900;
+}
+.blog {
+  position: absolute;
+  top: 880%;
+}
+.img-r img{
+  border-radius: 50%;
+
+}
+.img-r {
+  margin-left: 38%;
+  border-radius: 50%;
+  position: relative;
+  top: 35px;
+}
+.contacto.hidden-xs {
+  position: absolute;
+  top: 1002%;
+  background-color: #D1D1D1;
+  width: 100%;
+}
+.contacto.hidden-xs h1{
+  color: gray;
+}
+.contacto.hidden-xs p {
+  margin: 0 0 10px;
+  color: gray;
+  margin-left: 39%;
+  margin-bottom: 5%;
+}
+.footer.hidden-xs {
+  position: absolute;
+  top: 1082%;
+  background-color: #989898;
+  height: 60px;
+  width: 100%;
+}
+.footer p {
+  margin: 0 0 10px;
+  color: white;
+  display: inline-block;
+  margin-left: 81%;
+}
+.face, .twi, .google{
+  display: inline-block;
+  margin-left: 15px;
+}
+.redes{
+  margin-left: 3%;
+}
+.footer.hidden-xs img{
+  border-radius: 50%;
+  margin-top: -20px;
+}
+/*idiomas*/
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+.btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 25px;
+}
+.btn .caret {
+  margin-left: 0;
+  margin-top: -9px;
+}
+/*contacto*/
+fieldset {
+        padding:20px;
+    }
+    input,
+    textarea {
+        color: #373737;
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: gray;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom:15px;
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+   input[type="text"],
+   input[type="password"] {
+    padding: 8px 6px;
+    height: 37px;
+    width: 325px;
+    margin-left: 35%;
+    }
+    input[type="submit"] {
+  padding: 6px 32px;
+  color: white;
+  background-color: gray;
+  border: 2px solid gray;
+  border-radius: 11px;
+  font-weight: 800;
+  margin-left: 54%;
+  margin-bottom: 1%;
+}
+    textarea {
+     padding: 7px;
+     width: 325px;
+     height: 100px;
+     margin-left: 35%;
+}
+   
+/*xs*/
+button.perfil-2 {
+  background-color: #ff6a49;
+  padding: 14px;
+  border: 2px solid #ff6a49;
+  border-radius: 11px;
+  margin-top: 3%;
+  margin-left: 60%;
+}
+.navbar-toggle {
+  position: relative;
+  float: left;
+  margin-left: -180px;
+  padding: 9px 10px;
+  margin-top: 21px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+header.cel.hidden-lg.hidden-md {
+  background-color: #B8DBCB;
+}
+img.faro-1 {
+  margin-left: 22%;
+  margin-top: 13%;
+  margin-bottom: 10%;
+}
+/*# sourceMappingURL=project.css.map */
