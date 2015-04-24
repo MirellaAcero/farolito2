@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px; }
+<<<<<<< HEAD
 .empresas {
   position: absolute;
   top: 487%;
@@ -34,6 +35,9 @@ section.postulantes {
   top: 730.1%;
   background-size: cover;
 }
+=======
+
+>>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
 .clearfix:before, .clearfix:after {
   content: "";
   display: table; }
@@ -46,6 +50,7 @@ section.postulantes {
   margin: 0px;
   padding: 0px; }
 
+<<<<<<< HEAD
 .col-md-12 {
   width: 100%;
   height: 100%; }
@@ -54,12 +59,30 @@ section.postulantes {
   background-image: url(../img/img-home.png);
   width: 100%;
   height: 102%;
+=======
+.landing {
+  background-image: url(../img/img-home.png);
+  width: 100%;
+  height: 100%;
+>>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
   background-repeat: no-repeat;
   margin-top: -20px; }
 
 ul li {
   display: inline-block; }
 
+<<<<<<< HEAD
+=======
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 14px;
+  min-height: 70px; }
+
+>>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
 #ingresar {
   color: red;
   background-color: gray;
@@ -73,6 +96,7 @@ ul li {
   border-radius: 1px;
   background-color: black; }
 
+<<<<<<< HEAD
 .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
   margin-left: 48%;
   display: block;
@@ -857,4 +881,6 @@ img.faro-1 {
   margin-top: 13%;
   margin-bottom: 10%;
 }
+=======
+>>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
 /*# sourceMappingURL=project.css.map */
