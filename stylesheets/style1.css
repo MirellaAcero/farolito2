@@ -37,25 +37,25 @@
 }
 .postula {
 	position: relative;
-  	top: 740px
+  top: 600px
 } 
 .faro {
   position: relative;
-  top: -590px;
+  top: -500px;
 }
 .rw .col-xs-6 {
   width: 100%;
   position: relative;
-  top: -600px;
+  top: -480px;
 }
 .rw2 .col-xs-6 {
   width: 100%;
-  margin-top: -140%;
+  margin-top: -100%;
 }
 .row3 .col-xs-6 {
   width: 100%;
   position: relative;
-  top: -135px;
+  top: -47px;
 }
 .un ul li {
   display: block;
@@ -105,7 +105,7 @@
 }
 .faroem {
   position: relative;
-  top: 666px;
+  top: 518px;
 }
 .faroem h1 {
   font-size: 36px;
@@ -191,7 +191,7 @@
   border: 2px solid white;
   margin-top: 6%;
   position: relative;
-  left: 27%;
+  left: 40%;
   margin-bottom: 6%;
 }
 .blg.hidden-lg.hidden-md {
@@ -288,11 +288,12 @@
   border-radius: 50%;
 }
 .redes {
-  margin-left: 26%;
-  margin-top: -4%;
+  margin-left: 13%;
+  margin-top: 0%;
 }
 .fter p {
   color: white;
   text-align: center;
   margin-top: 14px;
 }
+

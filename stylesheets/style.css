@@ -12,6 +12,8 @@
   width: 33.333%;
   display: inline-block;
   margin-left: -3px;
+  margin-top: -4px;
+
 }
 .comite {
   height: 465px;
@@ -27,16 +29,15 @@
 .logo li {
   list-style: none;
 }
-.container-fluid > .navbar-header, .container-fluid > .navbar-collapse .land .hidden-lg .hidden-md {
-  margin-right: 0;
-  margin-left: 58%;
-  margin-top: -3%;
+ .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+  margin-left: 58.8%;
+  display: block;
 }
 .btn-group, .btn-group-vertical {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  top: 4px;
+  top: -3px;
 }
  .hidden-xs .navbar-right  {
   float: right !important;
@@ -48,7 +49,17 @@
   color: #333;
   background-color: #fff;
   border-color: #ccc;
-  margin-top: -11px;
+  margin-top: -3px;
+}
+.caret {
+  display: inline-block;
+  width: 0px;
+  height: 19px;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
 }
 .noso img {
   vertical-align: middle;
@@ -76,7 +87,7 @@
   display: inline-block;
   position: relative;
   left: 46%;
-  top: -268px;
+  top: -21px;
 }
 .boton-3 img{
 	border-radius: 50%;
@@ -200,7 +211,7 @@
   display: inline-block;
   position: relative;
   left: 46%;
-  top: 33px;
+  top: -40px;
 }
 .boton-4 img{
 	border-radius: 50%;
@@ -288,7 +299,6 @@
   color: gray;
   padding: 0px;
   margin-bottom: 0;
-  margin-top: 100px;
   text-align: center;
 }
 .blog p {

@@ -1,15 +1,20 @@
 * {
   box-sizing: border-box;
   padding: 0px;
-  margin: 0px; }
-<<<<<<< HEAD
+  margin: 0px;
+   }
+
 .empresas {
   position: absolute;
-  top: 487%;
+  top: 508%;
 }
 .row{
   margin-right: 0;
   margin-left: 0;
+}
+.landing .container-fluid {
+  margin-right: auto;
+  margin-left: -250px;
 }
 section.postulantes {
   background-color: #28c5e6;
@@ -20,24 +25,21 @@ section.postulantes {
   background-color: #77d248;
   position: absolute;
   width: 100%;
-  top: 610%;
+  top: 638%;
   height: 120%;
 }
 .blog {
   position: absolute;
-  top: 872%;
+  top: 909%;
 }
 .lista{
   background-image: url(../img/img-03.png);
   height: 150%;
   width: 100%;
   position: absolute;
-  top: 730.1%;
+  top: 758%;
   background-size: cover;
 }
-=======
-
->>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
 .clearfix:before, .clearfix:after {
   content: "";
   display: table; }
@@ -50,7 +52,6 @@ section.postulantes {
   margin: 0px;
   padding: 0px; }
 
-<<<<<<< HEAD
 .col-md-12 {
   width: 100%;
   height: 100%; }
@@ -58,21 +59,21 @@ section.postulantes {
 .desktop {
   background-image: url(../img/img-home.png);
   width: 100%;
-  height: 102%;
-=======
+  height: 111%;
+}
+
 .landing {
   background-image: url(../img/img-home.png);
   width: 100%;
   height: 100%;
->>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
   background-repeat: no-repeat;
-  margin-top: -20px; }
+  margin-top: -20px; 
+}
 
 ul li {
   display: inline-block; }
 
-<<<<<<< HEAD
-=======
+
 .header {
   position: absolute;
   top: 0;
@@ -82,7 +83,6 @@ ul li {
   padding: 0 14px;
   min-height: 70px; }
 
->>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
 #ingresar {
   color: red;
   background-color: gray;
@@ -95,12 +95,6 @@ ul li {
   height: 2px;
   border-radius: 1px;
   background-color: black; }
-
-<<<<<<< HEAD
-.container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
-  margin-left: 48%;
-  display: block;
-}
 
 .navbar-default {
   background-color: transparent;
@@ -278,14 +272,14 @@ button.perfil {
   border-bottom: 2px dashed #EC6645;
   -webkit-transform: rotate(90deg);
   position: absolute;
-  top: 877px;
+  top: 806px;
   right: 505px; }
 
 .eva-1 {
   display: inline-block;
   width: 22%;
   position: absolute;
-  top: 78%;
+  top: 84%;
   left: 7%;
 }
 .eva-1 p {
@@ -296,7 +290,7 @@ button.perfil {
   display: inline-block;
   width: 22%;
   position: absolute;
-  top: 78%;
+  top: 84%;
   right: 8%;
 }
 .eva p {
@@ -309,7 +303,7 @@ button.perfil {
   width: 26%;
   position: absolute;
   top: 135%;
-  right: 38%;
+  right: 37%;
 }
 .eva-2 p {
   text-align: center;
@@ -644,7 +638,7 @@ button.ver {
   margin-top: -34%;
   margin-bottom: 20%;
   position: relative;
-  left: 220%;
+  left: 190%;
 }
 button.ver-- {
   padding: 6% 18%;
@@ -654,7 +648,7 @@ button.ver-- {
   margin-top: -34%;
   margin-bottom: 20%;
   position: relative;
-  right: -184%;
+  right: -156%;
 }
 a.ver- {
   color: red;
@@ -718,10 +712,6 @@ button.v- {
 a.v- {
   color: white;
   font-weight: 900;
-}
-.blog {
-  position: absolute;
-  top: 880%;
 }
 .img-r img{
   border-radius: 50%;
@@ -803,7 +793,7 @@ a.v- {
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .btn .caret {
   margin-left: 0;
@@ -881,6 +871,5 @@ img.faro-1 {
   margin-top: 13%;
   margin-bottom: 10%;
 }
-=======
->>>>>>> 3670b68938e6184e262fd44e6056ef85c431558d
+
 /*# sourceMappingURL=project.css.map */
