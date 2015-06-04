@@ -39,11 +39,8 @@
   vertical-align: middle;
   top: -3px;
 }
- .hidden-xs .navbar-right  {
-  float: right !important;
-  margin-right: -50px;
-  margin-top: 39px;
-  margin-left: -92px;
+ .hidden-xs .navbar-right {
+  margin-top: 14px;
 }
 .btn-default {
   color: #333;

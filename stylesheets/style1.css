@@ -1,5 +1,6 @@
 .metodo {
-	padding: 0 22px 0 18px;
+  padding: 0 22px 0 18px;
+  margin-top: -21px;
 }
 .metodo h1 {
   font-size: 36px;
@@ -37,16 +38,16 @@
 }
 .postula {
 	position: relative;
-  top: 600px
+    top: 586px;
 } 
 .faro {
   position: relative;
-  top: -500px;
+  top: -543px;
 }
 .rw .col-xs-6 {
   width: 100%;
   position: relative;
-  top: -480px;
+  top: -548px;
 }
 .rw2 .col-xs-6 {
   width: 100%;
@@ -156,7 +157,7 @@
   width: 100%;
   height: 206%;
   position: relative;
-  top: 670px;
+  top: 500px;
 }
 .t p {
   text-align: center;
@@ -184,21 +185,21 @@
   text-align: center;
   margin-bottom: 55px;
 }
-.crea .conta-1 {
+.row6 .conta-1 {
   border-radius: 11px;
   padding: 10px 30px;
   background-color: transparent;
   border: 2px solid white;
-  margin-top: 6%;
+  margin-top: -1%;
   position: relative;
-  left: 40%;
+  left: 32%;
   margin-bottom: 6%;
 }
 .blg.hidden-lg.hidden-md {
   position: absolute;
   width: 100%;
   height: 155%;
-  top: 871.5%;
+  top: 848.5%;
 }
 .bli h1{
   color: #989898;
@@ -227,7 +228,7 @@
   border: 2px solid #28c5e6;
   margin-top: 16%;
   position: relative;
-  left: 29%;
+  left: 38%;
   margin-bottom: 6%;
 }
 .contct.hidden-lg.hidden-md {
@@ -235,6 +236,7 @@
   top: 1019.6%;
   background-color: #E0E0E0;
   height: 90%;
+  width: 100%;
 }
 .contct h1 {
   font-size: 36px;
@@ -281,7 +283,7 @@
   position: absolute;
   top: 1110%;
   width: 100%;
-  height: 70px;
+  height: 80px;
   background-color: gray;
 }
 .fter img{
@@ -291,9 +293,14 @@
   margin-left: 13%;
   margin-top: 0%;
 }
+.fter .redes {
+  margin-left: 13%;
+  margin-top: -3%;
+}
 .fter p {
   color: white;
   text-align: center;
   margin-top: 14px;
 }
+
 

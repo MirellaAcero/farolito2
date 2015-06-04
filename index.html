@@ -5,6 +5,9 @@
 		<meta charset="utf-8">
 		<!-- Responsiveness -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="rmm-js/responsivemobilemenu.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/project.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
@@ -12,8 +15,9 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/style2.css">
 	</head>
 	<body>
-		<div class="landing">	
-			<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="landing">
+			<!-- navbar desktop -->
+			<nav class="navbar navbar-default navbar-fixed-top  hidden-xs">
 			  	<div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
@@ -26,8 +30,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      	<ul class="nav navbar-nav navbar-right">
-					        <li><a href="#">Sobre nosotros</a></li>
-					        <li><a href="#">Oportunidades</a></li>
+					        <li><a href="nosotros.html">Sobre nosotros</a></li>
+					        <li><a href="#lista">Oportunidades</a></li>
 					        <li>	        	
 					        <!-- Split button -->
 									<div class="btn-group">
@@ -53,35 +57,14 @@
 			  	</div><!-- /.container-fluid -->
 			</nav>
 			<!-- navbar movil -->
-			<div class="land hidden-lg hidden-md">
-				<nav class="navbar navbar-default navbar-fixed-top hidden-lg hidden-md">
-				  	<div class="container-fluid">
-				    <!-- Brand and toggle get grouped for better mobile display -->
-					    <div class="navbar-header">
-					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					      </button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					      	<ul class="nav navbar-nav navbar-right">
-						        <li><a href="#">Sobre nosotros</a></li>
-						        <li><a href="#">Oportunidades</a></li>
-						        <li>
-						        	<a href="#">
-						        	<button type="submit" class="btn btn-default">INGRESAR</button>
-						        	</a>
-						        </li>
-				
-						    </ul>
-					    </div><!-- /.navbar-collapse -->
-				  	</div><!-- /.container-fluid -->
-				</nav>
-			</div>
+			<ul class="nav nav-pills">
+			  <li role="presentation" class="active"><a href="#">Home</a></li>
+			  <li role="presentation"><a href="#">Profile</a></li>
+			  <li role="presentation"><a href="#">Messages</a></li>
+			</ul>
+			<!--pop-up-->
 			<!-- home desktop -->
-			<header class="desktop hidden-xs">
+			<div class="desktop hidden-xs">
 				<div class="slogan">
 					<div class="row">
 						<div class="col-6">
@@ -97,7 +80,7 @@
 				<div class="boton-1">
 					<img class="boton" src="iconos/iconos-15.png">
 				</div>
-			</header>
+			</div>
 			<!-- home movil -->
 			<header class="cel hidden-lg hidden-md">
 				<a class="crea" href="#">
@@ -175,7 +158,7 @@
 				</div>
 			</div>
 			<!-- postulantes desktop -->
-			<section class="postulantes hidden-xs">
+			<div class="postulantes hidden-xs">
 				<div class="boton-2">
 					<img class="boton" src="iconos/iconos-15.png">
 						</div>
@@ -218,12 +201,12 @@
                   </div>
               </div>
           		</div>
-          		<a class="crea" href="#">
+          		<a class="crea" href="#lista">
 					<button class="ms" type="submit" class="btn btn-default">VER OPORTUNIDADES</button>
 				</a>
-      		</section>
+      </div>
       		<!-- postulantes movil  -->
-      		<div class="postula hidden-lg hidden-md">
+      <div class="postula hidden-lg hidden-md">
 				<div class="ima">
 		  		<div class="faro">
 		    	<h1>Farolito para postulantes</h1>
@@ -268,9 +251,9 @@
 					 		</div>
 				 	</div>
 				</div>
-    		</div>
+    	</div>
     		<!-- empresa desktop -->
-      		<div class="empresas hidden-xs">
+      <div class="empresas hidden-xs">
       			<div class="boton-3">
 					<img class="boton" src="iconos/iconos-15.png">
 				</div>
@@ -310,7 +293,7 @@
 							<p>Asesoría dirigida a nuevos trabajadores durante el proceso de inserción.</p>
 							</div>
 							</div>
-							<a class="contacto" href="#">
+							<a class="contacto" href="#contac">
 								<button class="conta" type="submit">Contáctanos</button>
 							</a>
 					</div>
@@ -352,13 +335,13 @@
 							<p>Asesoría dirigida a nuevos trabajadores durante el proceso de inserción.</p>
 							</div>
 							</div>
-							<a class="contacto" href="#">
+							<a class="contacto" href="#footer">
 								<button class="conta" type="submit">Contáctanos</button>
 							</a>
 					</div>
-    		</div>
+    	</div>
     		<!-- colegio desktop -->
-			<div class="colegio hidden-xs ">
+			<div class="colegio hidden-xs">
 				<div class="boton-5">
 					<img class="boton" src="iconos/iconos-15.png">
 				</div>
@@ -397,7 +380,7 @@
 					<p>Asegurar que cada sucursal y cada profesor brinden la misma calidad de formación, evaluando a todos los alumnos con el mismo examen.</p>
 					</div>
 					</div>
-					<a class="crea" href="#">
+					<a class="crea" href="#contac">
 						<button class="conta-1" type="submit" >CONTÁCTANOS</button>
 					</a>
 				</div>
@@ -439,14 +422,14 @@
 						<p>Asegurar que cada sucursal y cada profesor brinden la misma calidad de formación, evaluando a todos los alumnos con el mismo examen Identificamos a los postulantes con el perfil profesional de alumnos más exitosos, por carrera.</p>
 						</div>
 						</div>
-						<a class="crea" href="#">
+						<a class="crea" href="#footer">
 							<button class="conta-1" type="submit" >CONTÁCTANOS</button>
 						</a>
 					</div>
 	    		</div>
-    		</div>
+    	</div>
     		<!-- lista desktop -->
-			<div class="lista hidden-xs">
+			<div class="lista hidden-xs" id="lista" >
 				<div class="boton-4">
 					<img class="boton" src="iconos/iconos-15.png">
 				</div>
@@ -529,7 +512,7 @@
 					</div>
 					</div>
 				</div>
-				<a class="v-" href="#">
+				<a class="v-" href="blog.html">
 					<button type="submit" class="v-">VER TODOS</button>
 				</a>
 			</div>
@@ -574,11 +557,11 @@
 							</div>
 		    		</div>
 	    		<a class="crea" href="#">
-					<button class="cont" type="submit" >CONTÁCTANOS</button>
+					<button class="cont" type="submit">VER MÁS</button>
 				</a>
-    		</div>
+    	</div>
     		<!-- contacto desktop -->
-			<div class="contacto hidden-xs">
+			<div class="contacto hidden-xs" id="contac">
 						<div class="boton-6">
 							<img class="boton" src="iconos/iconos-15.png">
 						</div>
@@ -602,7 +585,7 @@
 						</div>
 			</div>
 			<!-- contacto movil -->
-			<div class="contct hidden-lg hidden-md">
+			<div class="contct hidden-lg hidden-md" id="contacto">
 				<h1>¿Tienes alguna consulta?</h1>
 				<div class="formulio">
 					<form action="" method="post">
@@ -638,7 +621,7 @@
 					<p>Todos los derechos reservados.</p>
 			</div>
 			<!-- footer movil -->
-			<div class="fter hidden-lg hidden-md ">
+			<div class="fter hidden-lg hidden-md" id="footer" >
 					<div class="redes">
 						<div class="face">
 							<img src="iconos/iconos-12.png">
@@ -689,6 +672,7 @@
 		<!-- Javascripts de Bootstrap -->
 		<script src="javascript/b3/collapse.js"></script>
 		<script src="javascript/b3/transition.js"></script>
+		<script src="javascript/menu.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	</body>	
 </html>	
